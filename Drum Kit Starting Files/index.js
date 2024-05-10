@@ -9,7 +9,7 @@ addEventListener("keydown", function (e) {
 });
 
 function makeSound(key) {
-  switch (keygit sta) {
+  switch (key) {
     case "w":
       var audio = new Audio("./sounds/tom-1.mp3");
       audio.play();
